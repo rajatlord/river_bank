@@ -8,13 +8,13 @@ import Navbar from "./Navbar";
   function Home() {
     return (
       <>
-        <h1 className="md:text-3xl flex justify-center mt-2 font-bold ">
+        <h1 className="md:text-3xl flex justify-center mt-2 font-bold " id="home">
           <span>Welcome to, </span>
           <span className="text-blue-600">🏛 River Bank</span>
         </h1>
         <Navbar />
         <section
-          id="home"
+          
           className="flex flex-col md:flex-row gap-6 px-4 md:px-16 my-10 items-center"
         >
           <div className="flex flex-col gap-7 p-3">
